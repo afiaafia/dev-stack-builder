@@ -49,7 +49,6 @@ Data flows from parent to child through props. A child can communicate back to t
 
 ## 📁 Project Structure
 
-```text
 src/
 ├── assets/
 ├── components/
@@ -58,3 +57,12 @@ src/
 ├── App.jsx
 ├── index.css
 └── main.jsx
+
+## ▶️ Run Locally
+
+Clone the repository and install the dependencies:
+
+git clone https://github.com/afiaafia/dev-stack-builder.git
+cd dev-stack-builder
+npm install
+npm run dev
