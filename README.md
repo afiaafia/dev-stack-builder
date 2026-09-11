@@ -4,12 +4,12 @@ Dev Stack Builder is a React-based website where developers can explore modern t
 
 ## 🚀 Technologies Used
 
-- React
-- JavaScript (ES6+)
-- Tailwind CSS
-- React-Toastify
-- JSON
-- Vite
+* React
+* JavaScript (ES6+)
+* Tailwind CSS
+* React-Toastify
+* JSON
+* Vite
 
 ## ✨ Features
 
@@ -66,3 +66,9 @@ git clone https://github.com/afiaafia/dev-stack-builder.git
 cd dev-stack-builder
 npm install
 npm run dev
+
+## 👩‍💻 Author
+
+**Afia Mubassira**
+
+Learning Full Stack Web Development with a focus on building practical projects and improving problem-solving skills.
