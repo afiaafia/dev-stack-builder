@@ -13,12 +13,12 @@ function Footer() {
               stack for your next project.
             </p>
 
-            <div className="mt-5 flex gap-4">
+            <div className="mt-5 flex flex-wrap gap-x-4 gap-y-2">
               <a
                 href="https://github.com"
                 target="_blank"
                 rel="noreferrer"
-                className="text-sm font-medium text-gray-600 hover:text-gray-900"
+                className="text-sm font-medium text-gray-600 transition hover:text-pink-600"
               >
                 GitHub
               </a>
@@ -27,7 +27,7 @@ function Footer() {
                 href="https://twitter.com"
                 target="_blank"
                 rel="noreferrer"
-                className="text-sm font-medium text-gray-600 hover:text-gray-900"
+                className="text-sm font-medium text-gray-600 transition hover:text-pink-600"
               >
                 Twitter
               </a>
@@ -36,7 +36,7 @@ function Footer() {
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noreferrer"
-                className="text-sm font-medium text-gray-600 hover:text-gray-900"
+                className="text-sm font-medium text-gray-600 transition hover:text-pink-600"
               >
                 LinkedIn
               </a>
@@ -50,7 +50,7 @@ function Footer() {
               <li>
                 <a
                   href="#technologies"
-                  className="text-sm text-gray-600 hover:text-pink-600"
+                  className="text-sm text-gray-600 transition hover:text-pink-600"
                 >
                   Technologies
                 </a>
@@ -59,7 +59,7 @@ function Footer() {
               <li>
                 <a
                   href="#projects"
-                  className="text-sm text-gray-600 hover:text-pink-600"
+                  className="text-sm text-gray-600 transition hover:text-pink-600"
                 >
                   Projects
                 </a>
@@ -68,7 +68,7 @@ function Footer() {
               <li>
                 <a
                   href="#about"
-                  className="text-sm text-gray-600 hover:text-pink-600"
+                  className="text-sm text-gray-600 transition hover:text-pink-600"
                 >
                   About
                 </a>
@@ -83,7 +83,7 @@ function Footer() {
               <li>
                 <a
                   href="#home"
-                  className="text-sm text-gray-600 hover:text-pink-600"
+                  className="text-sm text-gray-600 transition hover:text-pink-600"
                 >
                   Home
                 </a>
@@ -92,7 +92,7 @@ function Footer() {
               <li>
                 <a
                   href="#contact"
-                  className="text-sm text-gray-600 hover:text-pink-600"
+                  className="text-sm text-gray-600 transition hover:text-pink-600"
                 >
                   Contact
                 </a>
@@ -101,7 +101,7 @@ function Footer() {
               <li>
                 <a
                   href="#about"
-                  className="text-sm text-gray-600 hover:text-pink-600"
+                  className="text-sm text-gray-600 transition hover:text-pink-600"
                 >
                   Our Story
                 </a>
@@ -116,7 +116,7 @@ function Footer() {
               <li>
                 <a
                   href="#privacy"
-                  className="text-sm text-gray-600 hover:text-pink-600"
+                  className="text-sm text-gray-600 transition hover:text-pink-600"
                 >
                   Privacy Policy
                 </a>
@@ -125,7 +125,7 @@ function Footer() {
               <li>
                 <a
                   href="#terms"
-                  className="text-sm text-gray-600 hover:text-pink-600"
+                  className="text-sm text-gray-600 transition hover:text-pink-600"
                 >
                   Terms of Service
                 </a>
@@ -138,11 +138,11 @@ function Footer() {
           <p>© 2026 Dev Stack. All rights reserved.</p>
 
           <div className="flex gap-5">
-            <a href="#privacy" className="hover:text-gray-900">
+            <a href="#privacy" className="transition hover:text-gray-900">
               Privacy
             </a>
 
-            <a href="#terms" className="hover:text-gray-900">
+            <a href="#terms" className="transition hover:text-gray-900">
               Terms
             </a>
           </div>
