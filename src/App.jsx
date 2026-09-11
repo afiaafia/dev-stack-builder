@@ -96,18 +96,26 @@ function App() {
         <section id="technologies" className="bg-gray-50 px-6 py-20">
           <div className="mx-auto max-w-7xl">
             <div className="mb-10">
-              <p className="text-sm font-semibold uppercase tracking-wider text-pink-600">
-                Explore Technologies
-              </p>
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+                <div>
+                  <p className="text-sm font-semibold uppercase tracking-wider text-pink-600">
+                    Explore Technologies
+                  </p>
 
-              <h2 className="mt-2 text-3xl font-bold text-gray-900 sm:text-4xl">
-                Choose Your Technologies
-              </h2>
+                  <h2 className="mt-2 text-3xl font-bold text-gray-900 sm:text-4xl">
+                    Choose Your Technologies
+                  </h2>
 
-              <p className="mt-3 max-w-2xl text-gray-600">
-                Explore modern development technologies and add your favorites
-                to build your own developer stack.
-              </p>
+                  <p className="mt-3 max-w-2xl text-gray-600">
+                    Explore modern development technologies and add your
+                    favorites to build your own developer stack.
+                  </p>
+                </div>
+
+                <div className="w-fit rounded-full border border-gray-200 bg-white px-4 py-2 text-sm font-semibold text-gray-600 shadow-sm">
+                  {technologies.length} Technologies Available
+                </div>
+              </div>
             </div>
 
             <div className="grid gap-8 lg:grid-cols-[1fr_320px]">
