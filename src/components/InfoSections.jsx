@@ -1,7 +1,10 @@
 function InfoSections() {
   return (
     <>
-      <section id="projects" className="bg-white px-6 py-20">
+      <section
+        id="projects"
+        className="bg-white px-6 py-20"
+      >
         <div className="mx-auto max-w-7xl">
           <div className="max-w-2xl">
             <p className="text-sm font-semibold uppercase tracking-wider text-pink-600">
@@ -13,8 +16,8 @@ function InfoSections() {
             </h2>
 
             <p className="mt-4 text-gray-600">
-              Choose technologies based on your project needs and create a
-              development stack that fits your workflow.
+              Choose technologies based on your project needs and
+              create a development stack that fits your workflow.
             </p>
           </div>
 
@@ -29,8 +32,8 @@ function InfoSections() {
               </h3>
 
               <p className="mt-2 text-sm leading-6 text-gray-600">
-                Select modern tools that help you build and iterate on projects
-                efficiently.
+                Select modern tools that help you build and iterate
+                on projects efficiently.
               </p>
             </div>
 
@@ -44,8 +47,8 @@ function InfoSections() {
               </h3>
 
               <p className="mt-2 text-sm leading-6 text-gray-600">
-                Combine frontend, backend, database, and development tools based
-                on your project requirements.
+                Combine frontend, backend, database, and development
+                tools based on your project requirements.
               </p>
             </div>
 
@@ -59,15 +62,18 @@ function InfoSections() {
               </h3>
 
               <p className="mt-2 text-sm leading-6 text-gray-600">
-                Build a technology stack that gives your next project a clear
-                and practical foundation.
+                Build a technology stack that gives your next project
+                a clear and practical foundation.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="about" className="bg-gray-50 px-6 py-20">
+      <section
+        id="about"
+        className="bg-gray-50 px-6 py-20"
+      >
         <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-2 md:items-center">
           <div>
             <p className="text-sm font-semibold uppercase tracking-wider text-pink-600">
@@ -81,16 +87,82 @@ function InfoSections() {
 
           <div>
             <p className="text-base leading-7 text-gray-600">
-              Dev Stack helps developers explore popular technologies and
-              organize the tools they want to use in their projects. From
-              frontend frameworks to backend tools and databases, everything can
-              be explored from one place.
+              Dev Stack helps developers explore popular technologies
+              and organize the tools they want to use in their projects.
+              From frontend frameworks to backend tools and databases,
+              everything can be explored from one place.
             </p>
 
             <p className="mt-4 text-base leading-7 text-gray-600">
-              Add your preferred technologies to your stack, remove them when
-              needed, and create a personalized collection for your development
-              workflow.
+              Add your preferred technologies to your stack, remove
+              them when needed, and create a personalized collection
+              for your development workflow.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="privacy"
+        className="bg-white px-6 py-20"
+      >
+        <div className="mx-auto max-w-7xl">
+          <p className="text-sm font-semibold uppercase tracking-wider text-pink-600">
+            Legal
+          </p>
+
+          <h2 className="mt-2 text-3xl font-bold text-gray-900 sm:text-4xl">
+            Privacy Policy
+          </h2>
+
+          <div className="mt-6 max-w-3xl space-y-4 text-base leading-7 text-gray-600">
+            <p>
+              Dev Stack is a demonstration project created for
+              exploring and organizing development technologies.
+            </p>
+
+            <p>
+              The website does not require users to provide personal
+              information to explore technologies or build a stack.
+            </p>
+
+            <p>
+              Any information entered or selected while using the
+              website is used only for the functionality available
+              during the current session.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="terms"
+        className="bg-gray-50 px-6 py-20"
+      >
+        <div className="mx-auto max-w-7xl">
+          <p className="text-sm font-semibold uppercase tracking-wider text-pink-600">
+            Legal
+          </p>
+
+          <h2 className="mt-2 text-3xl font-bold text-gray-900 sm:text-4xl">
+            Terms of Service
+          </h2>
+
+          <div className="mt-6 max-w-3xl space-y-4 text-base leading-7 text-gray-600">
+            <p>
+              Dev Stack is provided as a learning and demonstration
+              project for exploring modern development technologies.
+            </p>
+
+            <p>
+              Users may explore the available technologies and create
+              a temporary personalized stack using the features
+              provided by the website.
+            </p>
+
+            <p>
+              The content and features of this project may be updated
+              or changed as the project evolves.
             </p>
           </div>
         </div>
